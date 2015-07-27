@@ -29,7 +29,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     });
 
     // Load content script on page 
-    chrome.tabs.executeScript(null, { file: "app.js" });
+    chrome.tabs.executeScript(null, { file: "inject.js" });
 
   });
 });

@@ -20,7 +20,7 @@ How to
 How it works
 ------------
 
-When you click the button, it runs `background.js`. This script insert `inject.js` into the web page.
+When you click the button, it runs `background.js`. This script inserts `inject.js` into the web page.
 
 **inject** is responsible for polling the conversation and detecting new messages. When a message is detected, it sends it to **background**, which in turns sends it to Hubot via a websocket. 
 

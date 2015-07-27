@@ -15,3 +15,9 @@ How to
  * Click the extension button (it looks like a puzzle piece)
 
 ![Screenshot](/fluff/ss.png?raw=true)
+
+
+Disclaimer
+----------
+
+Use at your own risk. Not responsible for any consequences, including, but not limited to, the banning of your WhatsApp account.

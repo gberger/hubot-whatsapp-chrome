@@ -17,6 +17,18 @@ How to
 ![Screenshot](/fluff/ss.png?raw=true)
 
 
+How it works
+------------
+
+When you click the button, it runs `background.js`. This script insert `inject.js` into the web page.
+
+**inject** is responsible for polling the conversation and detecting new messages. When a message is detected, it sends it to **background**, which in turns sends it to Hubot via a websocket. 
+
+If a response is received from Hubot, **background** sends that back to **inject**, which then puts the message in the compose box and clicks send.
+
+It's pretty hacky and could break at any point.
+
+
 Disclaimer
 ----------
 

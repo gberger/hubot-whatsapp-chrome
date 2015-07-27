@@ -1,0 +1,20 @@
+{
+  "name": "Hubot Adapter for Whatsapp",
+  "version": "0.1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "externally_connectable": {
+    "matches": ["*://web.whatsapp.com/*"]
+  },
+  "browser_action": {
+    "default_title": "Start"
+  },
+  "manifest_version": 2
+}
